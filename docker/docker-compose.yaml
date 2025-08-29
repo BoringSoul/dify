@@ -736,6 +736,8 @@ services:
       - ./volumes/sandbox/conf:/conf
     healthcheck:
       test: [ 'CMD', 'curl', '-f', 'http://localhost:8194/health' ]
+    depends_on:
+      - ssrf_proxy
     networks:
       - ssrf_proxy_network
 
