@@ -114,6 +114,8 @@ const translation = {
     needAnswerNode: 'Cevap düğümü eklenmelidir.',
     needEndNode: 'Son düğüm eklenmelidir',
     tagBound: 'Bu etiketi kullanan uygulama sayısı',
+    currentView: 'Geçerli Görünüm',
+    currentWorkflow: 'Mevcut İş Akışı',
   },
   env: {
     envPanelTitle: 'Çevre Değişkenleri',
@@ -293,12 +295,12 @@ const translation = {
     alignNodes: 'Düğümleri Hizala',
     vertical: 'Dikey',
     alignRight: 'Sağ',
-    alignTop: 'Sayfanın Üstü',
-    alignBottom: 'Dip',
+    alignTop: 'Üst',
+    alignBottom: 'Alt',
     selectionAlignment: 'Seçim Hizalama',
-    distributeHorizontal: 'Yatay Boşluk',
+    distributeHorizontal: 'Yatay Dağıt',
     horizontal: 'Yatay',
-    distributeVertical: 'Dikey Boşluk',
+    distributeVertical: 'Dikey Dağıt',
   },
   panel: {
     userInputField: 'Kullanıcı Giriş Alanı',
@@ -841,6 +843,7 @@ const translation = {
           url: 'Resim url\'si',
         },
         text: 'Temsilci Tarafından Oluşturulan İçerik',
+        usage: 'Model Kullanım Bilgileri',
         json: 'Aracı tarafından oluşturulan JSON',
       },
       checkList: {
@@ -990,6 +993,11 @@ const translation = {
       noDependencies: 'Bağımlılık yok',
     },
     relationsTab: 'Ilişkiler',
+    copyLastRun: 'Son Çalışmayı Kopyala',
+    noLastRunFound: 'Önceki çalışmaya rastlanmadı.',
+    noMatchingInputsFound: 'Son çalışmadan eşleşen giriş bulunamadı.',
+    copyLastRunError: 'Son çalışma girdilerini kopyalamak başarısız oldu.',
+    lastOutput: 'Son Çıktı',
   },
 }
 

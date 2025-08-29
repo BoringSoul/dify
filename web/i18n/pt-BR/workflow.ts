@@ -114,6 +114,8 @@ const translation = {
     needEndNode: 'O nó de Fim deve ser adicionado',
     needAnswerNode: 'O nó de resposta deve ser adicionado',
     tagBound: 'Número de aplicativos usando esta tag',
+    currentView: 'Visualização atual',
+    currentWorkflow: 'Fluxo de trabalho atual',
   },
   env: {
     envPanelTitle: 'Variáveis de Ambiente',
@@ -291,14 +293,14 @@ const translation = {
     alignNodes: 'Alinhar nós',
     selectionAlignment: 'Alinhamento de seleção',
     alignLeft: 'Esquerda',
-    alignBottom: 'Fundo',
-    distributeHorizontal: 'Espaço horizontalmente',
+    alignBottom: 'Inferior',
+    distributeHorizontal: 'Distribuir horizontalmente',
     alignMiddle: 'Meio',
-    alignRight: 'Certo',
+    alignRight: 'Direita',
     horizontal: 'Horizontal',
-    distributeVertical: 'Espaço Verticalmente',
+    distributeVertical: 'Distribuir verticalmente',
     alignCenter: 'Centro',
-    alignTop: 'Início',
+    alignTop: 'Superior',
   },
   panel: {
     userInputField: 'Campo de entrada do usuário',
@@ -841,6 +843,7 @@ const translation = {
         },
         json: 'JSON gerado pelo agente',
         text: 'Conteúdo gerado pelo agente',
+        usage: 'Informações de uso do modelo',
       },
       checkList: {
         strategyNotSelected: 'Estratégia não selecionada',
@@ -989,6 +992,11 @@ const translation = {
       noDependencies: 'Sem dependências',
     },
     relationsTab: 'Relações',
+    noMatchingInputsFound: 'Nenhuma entrada correspondente encontrada na última execução.',
+    copyLastRunError: 'Falha ao copiar as entradas da última execução',
+    noLastRunFound: 'Nenhuma execução anterior encontrada.',
+    copyLastRun: 'Copiar Última Execução',
+    lastOutput: 'Última Saída',
   },
 }
 

@@ -114,6 +114,8 @@ const translation = {
     configure: 'Konfiguriraj',
     inRunMode: 'V načinu izvajanja',
     tagBound: 'Število aplikacij, ki uporabljajo to oznako',
+    currentView: 'Trenutni pogled',
+    currentWorkflow: 'Trenutni potek dela',
   },
   env: {
     modal: {
@@ -287,14 +289,14 @@ const translation = {
     zoomIn: 'Zoom in',
     zoomTo50: 'Povečaj na 50%',
     zoomTo100: 'Povečaj na 100%',
-    alignMiddle: 'Srednji',
-    alignBottom: 'Dno',
+    alignMiddle: 'Sredina',
+    alignBottom: 'Spodaj',
     alignCenter: 'Center',
-    distributeVertical: 'Razmik navpično',
+    distributeVertical: 'Razporedi navpično',
     alignRight: 'Desno',
     alignTop: 'Vrh',
     vertical: 'Navpičen',
-    distributeHorizontal: 'Razmik vodoravno',
+    distributeHorizontal: 'Razporedi vodoravno',
     selectionAlignment: 'Poravnava izbora',
     alignNodes: 'Poravnava vozlišč',
     horizontal: 'Vodoraven',
@@ -880,6 +882,7 @@ const translation = {
         },
         json: 'agent generiran json',
         text: 'vsebina, ki jo je ustvaril agent',
+        usage: 'informacije o uporabi modela',
       },
       checkList: {
         strategyNotSelected: 'Strategija ni izbrana',
@@ -989,6 +992,11 @@ const translation = {
       noDependencies: 'Brez odvisnosti',
     },
     relationsTab: 'Odnose',
+    copyLastRun: 'Kopiraj zadnji zagon',
+    copyLastRunError: 'Kopiranje vhodov zadnjega zagona ni uspelo',
+    noLastRunFound: 'Nobenega prejšnjega zagona ni bilo najdenega.',
+    noMatchingInputsFound: 'Ni podatkov, ki bi ustrezali prejšnjemu zagonu',
+    lastOutput: 'Nazadnje izhod',
   },
 }
 

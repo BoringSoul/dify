@@ -114,6 +114,8 @@ const translation = {
     needEndNode: 'Der Endknoten muss hinzugefügt werden.',
     needAnswerNode: 'Der Antwortknoten muss hinzugefügt werden.',
     tagBound: 'Anzahl der Apps, die dieses Tag verwenden',
+    currentWorkflow: 'Aktueller Arbeitsablauf',
+    currentView: 'Aktuelle Ansicht',
   },
   env: {
     envPanelTitle: 'Umgebungsvariablen',
@@ -290,10 +292,10 @@ const translation = {
     selectionAlignment: 'Ausrichtung der Auswahl',
     alignLeft: 'Links',
     alignTop: 'Nach oben',
-    distributeVertical: 'Vertikaler Raum',
-    alignBottom: 'Unteres',
-    distributeHorizontal: 'Horizontaler Raum',
-    vertical: 'Senkrecht',
+    distributeVertical: 'Vertikal verteilen',
+    alignBottom: 'Nach unten',
+    distributeHorizontal: 'Horizontal verteilen',
+    vertical: 'Vertikal',
     alignMiddle: 'Mitte',
     alignCenter: 'Mitte',
     alignRight: 'Rechts',
@@ -840,6 +842,7 @@ const translation = {
           transfer_method: 'Übertragungsmethode. Wert ist remote_url oder local_file',
         },
         text: 'Von Agenten generierte Inhalte',
+        usage: 'Nutzungsinformationen des Modells',
         json: 'Vom Agenten generiertes JSON',
       },
       checkList: {
@@ -989,6 +992,11 @@ const translation = {
       noDependents: 'Keine Angehörigen',
     },
     relationsTab: 'Beziehungen',
+    copyLastRun: 'Letzte Ausführung kopieren',
+    copyLastRunError: 'Fehler beim Kopieren der letzten Lauf-Eingaben',
+    noMatchingInputsFound: 'Keine übereinstimmenden Eingaben aus dem letzten Lauf gefunden.',
+    noLastRunFound: 'Kein vorheriger Lauf gefunden',
+    lastOutput: 'Letzte Ausgabe',
   },
 }
 
